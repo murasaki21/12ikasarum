@@ -1,38 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/*---colors---*/
+/*--apricot: #ffcdb2ff;
+--melon: #ffb4a2ff;
+--pastel-pink: #e5989bff;
+--english-lavender: #b5838dff;
+--old-lavender: #735d78;*/
+
 /*---link stuff---*/
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: #ffcdb2ff;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #ffcdb2ff;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  /*light pink*/
-  color: #FFD6FF;
+  color: #e5989bff;
   text-decoration: none;
   transition: 0.5s;
 }
 
 /* selected link */
 a:active {
-  /*light blue*/
-  color: #99B9FF;
+  color: #ffb4a2ff;
   text-decoration: none;
 }
 
 body {
-  /*dark blue*/
-  background-color: #071369;
-  color: #FFd6FF;
+  background-color: #735d78;
+  color: #e5989bff;
   font-family:'Raleway', sans-serif;
   text-align: center;
 }
@@ -43,13 +47,13 @@ p{
 }
 
 h1 {
-  color: #FFd6FF;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
 }
 
 h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
