@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  background: #735d78;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 5em;
+  font-weight: bold;
+  font-family:'Raleway', sans-serif;
+  text-decoration: none;
+
+  position: relative;
+  color: transparent;
+  background-image: repeating-linear-gradient(45deg, #e5989bff 0px, #e5989bff 144px, #e5989bff 144px, #ffffff 288px, #ffffff 288px, #e5989bff 432px, #e5989bff 432px);
+  background-size: 250%;
+  background-position: 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-animation: stripeAnimation 2s linear infinite;
+  animation: stripeAnimation 2s linear infinite;
+  animation-play-state: running;
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+a:hover {
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+
+@keyframes stripeAnimation {
+  100% {
+    background-position: 165%;
+  }
+}
