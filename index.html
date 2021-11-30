@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css" />
 
-    <title>MirrorMe</title>
-  </head>
-  <body>
-    <h1>MirrorMe</h1>
-    <p>click here</p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="IndexStyle.css" />
+
+  <title>MirrorMe</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+    body {
+      background: #735d78;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    a {
+      font-size: 5em;
+      font-weight: bold;
+      font-family:'Raleway', sans-serif;
+      text-decoration: none;
+
+      position: relative;
+      color: transparent;
+      background-image: repeating-linear-gradient(45deg, #ffffff 0px, #e5989bff 144px, #e5989bff 144px, #e5989bff 288px, #e5989bff 288px, #e5989bff 432px);
+      background-size: 250%;
+      background-position: 0%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-animation: stripeAnimation 2s linear infinite;
+      animation: stripeAnimation 2s linear infinite;
+      animation-play-state: running;
+      -webkit-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+
+    a:hover {
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+    }
+
+    @keyframes stripeAnimation {
+      100% {
+        background-position: 165%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+    <a href="HomePage.html">MirrorMe</a>
+</body>
+
 </html>
