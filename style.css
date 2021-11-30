@@ -21,7 +21,7 @@ a:visited {
   text-decoration: none;
 }
 
-/* mouse over link */
+/* mouse over link*/
 a:hover {
   color: #e5989bff;
   text-decoration: none;
@@ -41,7 +41,7 @@ body {
   text-align: center;
 }
 
-p{
+p {
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -108,5 +108,5 @@ h3 {
 .desc {
   padding: 15px;
   text-align: center;
-  text-color: #FFd6FF;
+  text-color: #e5989bff;
 }
