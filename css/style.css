@@ -55,6 +55,15 @@ h1 {
   padding-top: 20px;
 }
 
+.h1Mirrored {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  opacity: .4;
+  height: 10px;
+  transform: rotateX(180deg);
+}
+
 h2 {
   color: #ffffff;
   font-size: 2em;
@@ -63,7 +72,7 @@ h2 {
   padding-top: 20px;
 }
 
-.h1Mirrored {
+.h2Mirrored {
   color: #ffffff;
   font-weight: bold;
   text-align: center;
