@@ -47,6 +47,7 @@ a:hover {
 #mirror {
   position: relative;
   background-color: #b5838dff;
+  opacity: .6;
   top: 0px;
   left: 0px;
   width: 95vw;
