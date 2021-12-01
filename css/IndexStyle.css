@@ -1,13 +1,14 @@
-/*Hover Stripe Animation Styling*/
+/*--Hover Stripe Animation Styling--*/
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
-  background: #735d78;
-  height: 100vh;
+  background: #e5989bff;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 30px solid white;
 }
 
 a {
@@ -19,7 +20,7 @@ a {
   position: relative;
   color: transparent;
   /*color order*/
-  background-image: repeating-linear-gradient(45deg, #e5989bff 0px, #e5989bff 144px, #e5989bff 144px, #ffffff 288px, #ffffff 288px, #e5989bff 432px, #e5989bff 432px);
+  background-image: repeating-linear-gradient(45deg, #e5989bff 0px, #e5989bff 144px, #e5989bff 144px, #ffffff 288px, #ffffff 288px, #e5989bff 432px);
   background-size: 250%;
   background-position: 0%;
   -webkit-background-clip: text;
@@ -40,4 +41,19 @@ a:hover {
   100% {
     background-position: 165%;
   }
+}
+
+/*--Mirror Design--*/
+#mirror {
+  position: relative;
+  background-color: #b5838dff;
+  top: 0px;
+  left: 0px;
+  width: 95vw;
+  height: 90vh;
+}
+
+#MirrorText {
+  text-align: center;
+  padding-top: 40vh;
 }
