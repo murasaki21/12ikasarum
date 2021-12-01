@@ -66,13 +66,13 @@ h1 {
 /*---gallery---*/
 
 .gallery {
-  margin: 30px;
-  float: left;
+  margin: auto;
+  align-items: center;
   width: 25%;
 }
 
 .gallery:hover {
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 .gallery img {
