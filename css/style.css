@@ -48,6 +48,7 @@ p {
 
 h1 {
   color: #ffffff;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
   padding-top: 20px;
@@ -57,7 +58,8 @@ h1 {
   color: #ffffff;
   font-weight: bold;
   text-align: center;
-  opacity: .6;
+  opacity: .5;
+  height: 10px;
   transform: rotateX(180deg);
 }
 /*---gallery---*/
