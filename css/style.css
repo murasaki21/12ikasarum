@@ -37,7 +37,7 @@ a:active {
 /*--general text styling--*/
 body {
   background-color: #b5838dff;
-  color: #735d78;
+  color: #ffffff;
   font-family:'Raleway', sans-serif;
   text-align: center;
 }
@@ -50,6 +50,14 @@ p {
 h1 {
   color: #ffffff;
   font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2em;
   font-weight: bold;
   text-align: center;
   padding-top: 20px;
