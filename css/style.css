@@ -50,12 +50,37 @@ h1 {
   color: #ffffff;
   font-weight: bold;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
 }
 
-h3 {
+.h1Mirrored {
   color: #ffffff;
+  font-weight: bold;
   text-align: center;
+  opacity: .6;
+  transform: rotateX(180deg);
+}
+/*---gallery---*/
+
+.gallery {
+  margin: 30px;
+  float: left;
+  width: 25%;
+}
+
+.gallery:hover {
+  border: 2px solid white;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  text-color: #e5989bff;
 }
 
 /*---TV Space---*/
@@ -88,27 +113,4 @@ h3 {
   text-align: center;
   font-size: 18px;
   cursor: pointer;
-}
-
-/*---gallery---*/
-
-.gallery {
-  margin: 30px;
-  float: left;
-  width: 25%;
-}
-
-.gallery:hover {
-  border: 2px solid white;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center;
-  text-color: #e5989bff;
 }
