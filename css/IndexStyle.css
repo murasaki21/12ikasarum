@@ -58,3 +58,9 @@ a:hover {
   text-align: center;
   padding-top: 40vh;
 }
+
+#UpsideDown {
+  text-align: center;
+  transform: rotateX(180deg);
+  opacity: .5;
+}
