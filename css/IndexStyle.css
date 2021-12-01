@@ -63,4 +63,5 @@ a:hover {
   text-align: center;
   transform: rotateX(180deg);
   opacity: .4;
+  height: 80px;
 }
