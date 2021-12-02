@@ -11,7 +11,7 @@
 
 /* unvisited link */
 a:link {
-  color: #ffcdb2ff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ a:visited {
 
 /* mouse over link*/
 a:hover {
-  color: #ffffff;
+  color: #ffcdb2ff;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -81,12 +81,25 @@ h2 {
   transform: rotateX(180deg);
 }
 
+/*--homepage--*/
+
 #ReturnButton{
   position: absolute;
   color: #ffffff;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
-  padding: 20px;
+  padding: 30px;
+}
+
+#HomePageBkgd {
+  background: #FFA9AD;
+  background: -moz-linear-gradient(top, #FFA9AD 0%, #B5838D 50%, #7C6482 100%);
+  background: -webkit-linear-gradient(top, #FFA9AD 0%, #B5838D 50%, #7C6482 100%);
+  background: linear-gradient(to bottom, #FFA9AD 0%, #B5838D 50%, #7C6482 100%);
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
 }
 
 /*---gallery---*/
