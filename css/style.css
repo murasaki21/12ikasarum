@@ -55,11 +55,6 @@ h1 {
   padding-top: 20px;
 }
 
-h1:hover{
-  color: #ffcdb2ff;
-  transition: 0.5s;
-}
-
 .h1Mirrored {
   color: #ffffff;
   font-weight: bold;
