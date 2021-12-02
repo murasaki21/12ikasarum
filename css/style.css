@@ -23,7 +23,7 @@ a:visited {
 
 /* mouse over link*/
 a:hover {
-  color: #735d78;
+  color: #ffffff;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -80,8 +80,16 @@ h2 {
   height: 10px;
   transform: rotateX(180deg);
 }
-/*---gallery---*/
 
+#ReturnButton{
+  position: absolute;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+/*---gallery---*/
 .gallery {
   margin: auto;
   align-items: center;
