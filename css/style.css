@@ -102,14 +102,16 @@ h2:hover{
 }
 
 #HomePageBkgd {
+  position: absolute;
   background: #FFA9AD;
   background: -moz-linear-gradient(top, #FFA9AD 0%, #B5838D 50%, #7C6482 100%);
   background: -webkit-linear-gradient(top, #FFA9AD 0%, #B5838D 50%, #7C6482 100%);
   background: linear-gradient(to bottom, #FFA9AD 0%, #B5838D 50%, #7C6482 100%);
-  left: 0px;
   top: 0px;
-  height: 100vh;
+  left: 0px;
   width: 100vw;
+  height: 100vh;
+  padding: 0px;
 }
 
 /*---gallery---*/
