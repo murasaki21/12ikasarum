@@ -110,12 +110,13 @@ h2:hover{
   top: 0px;
   left: 0px;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   padding: 0px;
 }
 
 /*---gallery---*/
 .gallery {
+  position: relative;
   margin: auto;
   align-items: center;
   width: 25%;
@@ -127,7 +128,7 @@ h2:hover{
 }
 
 .gallery img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
