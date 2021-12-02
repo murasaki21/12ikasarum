@@ -17,7 +17,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #ffcdb2ff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ h2 {
 
 /*--homepage--*/
 
-#ReturnButton{
+#ReturnButton {
   position: absolute;
   color: #ffffff;
   font-size: 4em;
