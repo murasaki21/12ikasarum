@@ -35,6 +35,11 @@ a:active {
 }
 
 /*--general text styling--*/
+header {
+  align-items: center;
+  text-align: center;
+}
+
 body {
   background-color: #b5838dff;
   color: #ffffff;
@@ -86,7 +91,7 @@ h2:hover{
   transform: rotateX(180deg);
 }
 
-/*--Homepage Exclusive--*/
+/*---Homepage Space---*/
 
 #ReturnButton {
   position: absolute;
@@ -135,27 +140,35 @@ h2:hover{
 
 /*---Full Length Mirror Space---*/
 
-
-
-button{
+button {
   margin-top:20%;
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  font-family:'Raleway', sans-serif;
+  text-align: center;
 }
 
-ul{
+button:hover {
+  background-color: #ffcdb2ff;
+  transition: 0.3s;
+}
+
+ul {
 	list-style-type: none;
 	display:inline-block;
 }
 
-MyBody{
+MyBody {
 z-index: -1000;
 }
 
-.shirt{
+.shirt {
 	visibility:hidden;
   z-index: 2;
 }
 
-.pant{
+.pant {
 	visibility:hidden;
   z-index: 1;
 	}
