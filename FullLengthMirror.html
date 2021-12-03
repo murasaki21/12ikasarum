@@ -1,23 +1,111 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <title>Full Length Mirror</title>
-  </head>
-  <body>
-    <style>
-      body {
-        background-color: #e5989bff;
+
+<head>
+  <meta charset="utf-8">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <!--linked script sources-->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  <script src="dressup.js"></script>
+  <script type="text/javascript"></script>
+
+  <title>Full Length Mirror</title>
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: #e5989bff;
+    }
+
+    img {
+      position: absolute;
+      margin-left: 15%;
+      display: inline-block;
+      height: 100%;
+    }
+  </style>
+
+  <a href="HomePage.html">
+    <h2>Mirror Me</h2>
+  </a>
+  <h2 class="h1Mirrored">Mirror Me</h2>
+
+  <h1>World of Clothes</h1>
+  <h1 class="h1Mirrored">World of Clothes</h1>
+
+  <!--buttons-->
+  <ul>
+    <li><button class="btn btn-default" id="shirt_button" type="button">top</button></li>
+
+    <li><button class="btn btn-default" id="pant_button" type="button">bottom</button></li>
+  </ul>
+
+  <!--body and clothes-->
+  <img id="MyBody" src="assets/body.png" />
+
+  <img id="top1" class="shirt" src="assets/top1.png" alt="white t-shirt with red plaid shirt around waist" />
+
+  <img id="top2" class="shirt" src="assets/top2.png" alt="white hoodie with blue jean jacket" />
+
+  <img id="top3" class="shirt" src="assets/top3.png" alt="sleeveless floral shirt with black tank top" />
+
+  <!--script stuff-->
+  <script>
+    $(document).ready(function() {
+
+      function ImageSwitcher(choices, i) {
+        i = 0;
+
+        this.Next = function() {
+          hide_current_image();
+          show_next_image();
+        }
+
+        var hide_current_image = function() {
+          if (choices) {
+            choices[i].style.visibility = "hidden";
+            i += 1;
+          }
+        }
+        var show_next_image = function() {
+          if (choices) {
+            if (i == (choices.length)) {
+              i = 0;
+            }
+            choices[i].style.visibility = "visible";
+          }
+        }
       }
-    </style>
 
-    <a href="HomePage.html"><h2>Mirror Me</h2></a>
-    <h2 class="h1Mirrored">Mirror Me</h2>
+      var pants = $(".pant");
+      var shirts = $(".shirt");
+      var backgrounds = $(".bg");
 
-    <h1>World of Clothes</h1>
-    <h1 class="h1Mirrored">World of Clothes</h1>
+      var shirt_picker = new ImageSwitcher(shirts);
+      document.getElementById("shirt_button").onclick = function() {
+        shirt_picker.Next();
+      };
 
-    <!--script stuff here-->
-  </body>
+      var pants_picker = new ImageSwitcher(pants);
+      document.getElementById("pant_button").onclick = function() {
+        pants_picker.Next();
+      };
+
+      var bg_picker = new ImageSwitcher(backgrounds);
+      document.getElementById("bg_button").onclick = function() {
+        bg_picker.Next();
+      };
+
+    });
+
+    $("#shirt_button").click(function() {
+      $("#shirt-menu").css("visibility", "visible");
+    });
+  </script>
+</body>
+
 </html>

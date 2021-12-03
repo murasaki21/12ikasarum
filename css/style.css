@@ -133,6 +133,33 @@ h2:hover{
   text-color: #e5989bff;
 }
 
+/*---Full Length Mirror Space---*/
+
+
+
+button{
+  margin-top:20%;
+}
+
+ul{
+	list-style-type: none;
+	display:inline-block;
+}
+
+MyBody{
+z-index: -1000;
+}
+
+.shirt{
+	visibility:hidden;
+  z-index: 2;
+}
+
+.pant{
+	visibility:hidden;
+  z-index: 1;
+	}
+
 /*---TV Space---*/
 #space {
   display: block;
