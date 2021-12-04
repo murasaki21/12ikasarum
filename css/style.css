@@ -162,7 +162,7 @@ ul {
 }
 
 MyBody {
-z-index: -1000;
+  z-index: -1000;
 }
 
 .shirt {
