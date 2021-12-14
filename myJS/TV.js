@@ -64,11 +64,11 @@ function init() {
   // Remove overlays and begin controls on click
   controls.addEventListener("lock", function() {
     instructions.style.display = "none";
-    blocker.style.display = "none";
+    intro.style.display = "none";
   });
   // Restore overlays and stop controls on esc
   controls.addEventListener("unlock", function() {
-    blocker.style.display = "block";
+    intro.style.display = "block";
     instructions.style.display = "";
   });
   // Add controls to scene
