@@ -1,10 +1,10 @@
 // Credit: Chelsea Thompto https://chelsea-thompto-teaching-examples.github.io/threejs-nonode-boilerplate/images.html
 
-import * as THREE from "../12ikasarum/BuildJS/three.module.js";
+import * as THREE from "../BuildJS/three.module.js";
 // Import pointer lock controls
 import {
   PointerLockControls
-} from "../12ikasarum/SourceJS/PointerLockControls.js";
+} from "../SourceJS/PointerLockControls.js";
 
 // Establish variables
 let camera, scene, renderer, controls, material;
