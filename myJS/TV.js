@@ -183,7 +183,7 @@ function init() {
 
   // First Image (red and purple glitch map)
   // Load image as texture
-  const texture = new THREE.TextureLoader().load("../assets/Double.png");
+  const texture = new THREE.TextureLoader().load("../12ikasarum/assets/Double.png");
   // Immediately use the texture for material creation
   const material = new THREE.MeshBasicMaterial({
     map: texture,
@@ -200,7 +200,7 @@ function init() {
 
   // Second Image (Text with image and white background)
   // Load image as texture
-  const texture2 = new THREE.TextureLoader().load("../assets/HanaKimi.png");
+  const texture2 = new THREE.TextureLoader().load("../12ikasarum/assets/HanaKimi.png");
   // immediately use the texture for material creation
   const material2 = new THREE.MeshBasicMaterial({
     map: texture2,
@@ -218,7 +218,7 @@ function init() {
 
   // Second Image (Text with image and white background)
   // Load image as texture
-  const texture3 = new THREE.TextureLoader().load("../assets/Ouran.png");
+  const texture3 = new THREE.TextureLoader().load("../12ikasarum/assets/Ouran.png");
   // immediately use the texture for material creation
   const material3 = new THREE.MeshBasicMaterial({
     map: texture3,
