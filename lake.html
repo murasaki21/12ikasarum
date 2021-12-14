@@ -7,8 +7,7 @@
 
   <!--linked script sources-->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js">
-  </script>
+  <script src="http://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js"></script>
   <title>Lake</title>
 </head>
 
@@ -31,11 +30,12 @@
     }
   </style>
 
-  <div class="image"></div>
-  
+  <div id="image"></div>
+
   <script>
+    //credit: John mpf https://codepen.io/John_mpf/pen/MzXNwr
     $(document).ready(function() {
-    $('.image').ripples('show');
+    $('#image').ripples('show');
     });
   </script>
 </body>

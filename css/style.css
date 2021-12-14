@@ -206,3 +206,11 @@ MyBody {
   font-size: 18px;
   cursor: pointer;
 }
+
+/*---Lake Space---*/
+#image {
+  width:100%;
+  height:500px;
+  background-image:url(http://images6.fanpop.com/image/photos/33300000/Abstract-Space-space-33308889-1920-1200.jpg);
+  background-position:center;
+}
