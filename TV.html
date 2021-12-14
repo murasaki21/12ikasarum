@@ -25,19 +25,63 @@
       background-color: #b5838dff;
     }
   </style>
+
+  <div id="intro">
+    <div id="instructions">
+      <h1>
+        Welcome to the World of Shows
+      </h1>
+
+      <h3>
+        A Collection of Some of My Favorite Shows
+      </h3>
+      <br>
+
+      <h3>
+        Click Anywhere to Enter
+      </h3>
+      <br>
+
+      <p>
+
+        <br>
+        W: Move Forward
+        <br>
+        A: Move Left
+        <br>
+        S: Move Backward
+        <br>
+        D: Move Right
+        <br>
+        Mouse: Pan View
+        <br>
+        <br>
+        <b>*Titles are changed to prevent copyright infringment, so below are links to the actual shows*</b>
+        <li><a href="https://www.youtube.com/watch?v=lr77oI4DP1E&ab_channel=TOEITOKUSATSUWORLDOFFICIAL">Kamen Rider W (Lamen Tiser VV)</a></li>
+
+        <li><a href=""
+
+        <li><a href="https://www.funimation.com/v/ouran-high-school-host-club/starting-today-you-are-a-host"> Ouran Highschool Host Club (Ohsaka Host Club)</a></li>
+      <p>
+
+      <h3>
+        <a href="index.html"> Click Here To Return Home</a>
+      </h3>
+    </div>
+  </div>
+
   <!--script stuff here-->
   <script>
-    // Art 109 Three.js Demo Site
-    // client7.js
+    // Credit: Chelsea Thompto https://chelsea-thompto-teaching-examples.github.io/threejs-nonode-boilerplate/images.html
     // A three.js scene which uses planes and texture loading to generate a scene with images which can be traversed with basic WASD and mouse controls, this scene is full screen with an overlay.
 
     // Import required source code
     // Import three.js core
-    import * as THREE from "./build/three.module.js";
+    import * as THREE from "../12ikasarum/BuildJS/three.module.js";
     // Import pointer lock controls
     import {
       PointerLockControls
-    } from "./src/PointerLockControls.js";
+    } from "../12ikasarum/SourceJS/PointerLockControls.js";
 
     // Establish variables
     let camera, scene, renderer, controls, material;
@@ -74,7 +118,7 @@
 
       // Define basic scene parameters
       scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x000000);
+      scene.background = new THREE.Color(0x735d78);
       scene.fog = new THREE.Fog(0xffffff, 0, 750);
 
       // Define scene lighting
