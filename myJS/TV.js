@@ -41,7 +41,7 @@ function init() {
 
   // Define basic scene parameters
   scene = new THREE.Scene();
-  scene.background = new THREE.Color(0x735d78);
+  scene.background = new THREE.Color(0xb5838d);
   scene.fog = new THREE.Fog(0xffffff, 0, 750);
 
   // Define scene lighting
