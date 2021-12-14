@@ -189,12 +189,12 @@ function init() {
     map: texture,
     side: THREE.DoubleSide
   });
-  // Create plane geometry
-  const geometry = new THREE.PlaneGeometry(32, 16);
+  // Create plane geometry; adjusts size
+  const geometry = new THREE.PlaneGeometry(25, 20);
   // Apply image texture to plane geometry
   const plane = new THREE.Mesh(geometry, material);
-  // Position plane geometry
-  plane.position.set(0, 15, -15);
+  // Position plane geometry (x,y,z)
+  plane.position.set(0, 15, -25);
   // Place plane geometry
   scene.add(plane);
 
@@ -206,14 +206,31 @@ function init() {
     map: texture2,
     side: THREE.DoubleSide
   });
-  // Create plane geometry
-  const geometry2 = new THREE.PlaneGeometry(200, 100);
+  // Create plane geometry; adjusts size
+  const geometry2 = new THREE.PlaneGeometry(25,20);
   // Apply image texture to plane geometry
   const plane2 = new THREE.Mesh(geometry2, material2);
-  // Position plane geometry
-  plane2.position.set(0, 100, -200);
+  // Position plane geometry (x,y,z)
+  plane2.position.set(55, 15, -25);
   // Place plane geometry
   scene.add(plane2);
+
+  // Second Image (Text with image and white background)
+  // Load image as texture
+  const texture3 = new THREE.TextureLoader().load("../assets/Ouran.png");
+  // immediately use the texture for material creation
+  const material3 = new THREE.MeshBasicMaterial({
+    map: texture3,
+    side: THREE.DoubleSide
+  });
+  // Create plane geometry; adjusts size
+  const geometry3 = new THREE.PlaneGeometry(25,20);
+  // Apply image texture to plane geometry
+  const plane3 = new THREE.Mesh(geometry3, material3);
+  // Position plane geometry (x,y,z)
+  plane3.position.set(110, 15, -25);
+  // Place plane geometry
+  scene.add(plane3);
 
   // Define Rendered and html document placement
   renderer = new THREE.WebGLRenderer({
