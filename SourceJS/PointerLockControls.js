@@ -1,4 +1,4 @@
-//credit: three.js.org
+//credit: threejs.org
 import {
 	Euler,
 	EventDispatcher,
