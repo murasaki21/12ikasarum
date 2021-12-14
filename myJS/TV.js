@@ -211,7 +211,8 @@ function init() {
   // Apply image texture to plane geometry
   const plane2 = new THREE.Mesh(geometry2, material2);
   // Position plane geometry (x,y,z)
-  plane2.position.set(55, 15, -25);
+  plane2.position.set(50, 15, -85);
+  //plane2.position.set(55, 15, -25);
   // Place plane geometry
   scene.add(plane2);
 
@@ -228,7 +229,8 @@ function init() {
   // Apply image texture to plane geometry
   const plane3 = new THREE.Mesh(geometry3, material3);
   // Position plane geometry (x,y,z)
-  plane3.position.set(110, 15, -25);
+  plane3.position.set(-50, 15, -145);
+  //plane3.position.set(110, 15, -25);
   // Place plane geometry
   scene.add(plane3);
 
