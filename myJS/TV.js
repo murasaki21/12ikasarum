@@ -248,7 +248,7 @@ function init() {
   // Apply image texture to plane geometry
   const plane4 = new THREE.Mesh(geometry4, material4);
   // Position plane geometry (x,y,z)
-  plane4.position.set(-50, 15, -205);
+  plane4.position.set(0, 15, -205);
   //plane4.position.set(110, 15, -25);
   // Place plane geometry
   scene.add(plane4);
