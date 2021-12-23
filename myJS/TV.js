@@ -182,7 +182,7 @@ function init() {
   scene.add(floor);
 
 
-  // First Image (red and purple glitch map)
+  //// First Image ////
   // Load image as texture
   const texture = new THREE.TextureLoader().load("../12ikasarum/assets/Double.png");
   // Immediately use the texture for material creation
@@ -199,7 +199,7 @@ function init() {
   // Place plane geometry
   scene.add(plane);
 
-  // Second Image (Text with image and white background)
+  //// Second Image ////
   // Load image as texture
   const texture2 = new THREE.TextureLoader().load("../12ikasarum/assets/HanaKimi.png");
   // immediately use the texture for material creation
@@ -217,7 +217,7 @@ function init() {
   // Place plane geometry
   scene.add(plane2);
 
-  // Second Image (Text with image and white background)
+  //// Third Image ////
   // Load image as texture
   const texture3 = new THREE.TextureLoader().load("../12ikasarum/assets/Ouran.png");
   // immediately use the texture for material creation
