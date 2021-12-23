@@ -235,6 +235,24 @@ function init() {
   // Place plane geometry
   scene.add(plane3);
 
+  //// Third Image ////
+  // Load image as texture
+  const texture4 = new THREE.TextureLoader().load("../12ikasarum/assets/CobraKai.png");
+  // immediately use the texture for material creation
+  const material4 = new THREE.MeshBasicMaterial({
+    map: texture4,
+    side: THREE.DoubleSide
+  });
+  // Create plane geometry; adjusts size
+  const geometry4 = new THREE.PlaneGeometry(25,20);
+  // Apply image texture to plane geometry
+  const plane4 = new THREE.Mesh(geometry4, material4);
+  // Position plane geometry (x,y,z)
+  plane4.position.set(-50, 15, -205);
+  //plane4.position.set(110, 15, -25);
+  // Place plane geometry
+  scene.add(plane4);
+
   // Define Rendered and html document placement
   renderer = new THREE.WebGLRenderer({
     antialias: true
